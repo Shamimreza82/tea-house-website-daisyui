@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- font aswome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- custom color and other  -->
     
     <script>
@@ -33,18 +35,27 @@
 </head>
 
 
-<body class="font-manrope">  
-    <header class="container m-auto" >
-      <div class="hero  bg-base-200">
+<body class="font-manrope ">  
+    <header class="container m-auto bg-[#FFF] " >
+      <div class="hero  bg-base-100">
         <div class="hero-content flex-col lg:flex-row-reverse">
-          <img src="images/banner.png" class="" />
+          <div class="relative">
+            <img  src="images/banner.png" class="" />
+            <div class="flex items-center gap-5 w-[255px] h-[100px] bg-white rounded-lg justify-center shadow-md -mt-20 absolute">
+                <i class="fa-solid fa-star text-3xl text-orange-500"></i>
+              <div>
+                <h2 class="text-3xl font-bold">5.00</h2>
+                <h4>Trust Pilot Ratings</h4>
+              </div>
+            </div>
+          </div>
           <div>
-            <h1 class="text-6xl font-extrabold">
+            <h1 class="text-6xl font-extrabold ">
               It's good <br>
               tea time at The <br> 
               Tea House</h1>
             <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-            <button class="btn btn-primary">Get Started</button>
+            <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Get Started <i class="fa-solid fa-arrow-trend-up"></i></button>
           </div>
         </div>
       </div>
